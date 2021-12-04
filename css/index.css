@@ -1,0 +1,376 @@
+:root {
+  scroll-behavior: smooth;
+  --red_color: #ef3e34;
+  --white_color: #ffff;
+  --light_gray_color: #6d6d6d;
+}
+
+#carouselOffers {
+  min-height: 500px;
+}
+
+#carouselOffers img {
+  max-height: 450px;
+}
+
+.intro {
+  max-width: 400px;
+  margin-top: 150px;
+  text-align: center;
+}
+.card {
+  height: 100%;
+}
+
+.alert {
+  position: fixed;
+  top: 50px;
+  width: 50%;
+  left: 25%;
+  z-index: 1051;
+}
+
+.btn {
+  padding: 0.75rem 0.7rem;
+}
+
+.header_logo_car_spare_parts {
+  width: 200px;
+  height: 200px;
+}
+
+.upper_adv {
+  background-image: url(/img/upper_background.webp);
+  padding-bottom: 10px;
+}
+
+.upper_adv_text {
+  font-size: 70px;
+  padding-top: 110px;
+  padding-left: 240px;
+  font-weight: bold;
+  color: var(--white_color);
+}
+
+.upper_banner_text {
+  font-size: 22px;
+  padding-top: 44px;
+  padding-left: 280px;
+  color: var(--white_color);
+}
+
+.request_a_quote {
+  width: 210px;
+  height: 65px;
+  margin-left: 280px;
+  margin-top: 35px;
+  font-size: 14px;
+  border: 2px solid var(--white_border);
+  background-color: tomato;
+  font-weight: bold;
+  margin-bottom: 45px;
+  color: var(--white_color);
+}
+
+.request_parts_button_link {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--white_border);
+}
+
+.upper_contact_info_block {
+  padding-bottom: 80px;
+  width: 250px;
+  height: 240px;
+  margin-left: 890px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: var(--white_color);
+}
+
+.call_us_upper_info {
+  padding-left: 50px;
+  padding-top: 40px;
+  font-weight: bold;
+  color: var(--white_color);
+}
+
+.adress_upper_info {
+  padding-left: 50px;
+  padding-top: 20px;
+  font-weight: bold;
+  color: var(--white_color);
+}
+
+.call_us_upper_info_call_us_text,
+.call_us_upper_info_we_are_here_text {
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.who_we_are {
+  display: flex;
+  margin-top: 181px;
+}
+
+.who_we_are_text {
+  color: var(--red_color);
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.professional_car_parts_seller_text_who_we_are {
+  font-weight: bold;
+  font-size: 50px;
+  padding-left: 20px;
+}
+
+.who_we_are_text_about {
+  color: var(--light_gray_color);
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.browse_the_parts_button {
+  width: 210px;
+  height: 65px;
+  margin-left: 280px;
+  margin-top: 35px;
+  font-size: 14px;
+  background-color: var(--white_border);
+  border: 3px solid var(--red_color);
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+
+.browse_the_parts_button_text {
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+.browse_the_parts_button_link {
+  text-decoration: none;
+  color: #030303;
+}
+
+.why_choose_us {
+  padding-bottom: 100px;
+}
+
+.professional_car_parts_seller_text_why_choose_us {
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 280px;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.spare_parts_text {
+  color: var(--red_color);
+}
+
+.we_are_best_text {
+  font-size: 20px;
+}
+
+.why_choose_us_text {
+  color: var(--red_color);
+  font-weight: bold;
+  margin-top: 60px;
+  margin-left: 572px;
+}
+
+.grid_list_advantages {
+  display: inline-grid;
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+
+.vast_experience,
+.rare_parts,
+.individual_approach {
+  display: flex;
+  padding-bottom: 22px;
+}
+
+.car_mini_img_advantages,
+.accumulator_mini_img_advantages,
+.wrench_mini_img_advantages {
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.advantage_list_and_car_picture {
+  display: flex;
+}
+
+.why_choose_us_cars_image {
+  width: 520px;
+  height: 560px;
+  margin-left: 150px;
+}
+
+.request {
+  background-color: var(--red_color);
+  margin-top: 100px;
+}
+
+.request_text {
+  color: var(--white_color);
+  font-weight: bold;
+  padding-left: 610px;
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+
+.specific_part_order_text {
+  color: var(--white_color);
+  padding-left: 390px;
+  font-size: 30px;
+}
+
+.specific_spare_part {
+  font-weight: bold;
+  font-size: 60px;
+  padding-left: 450px;
+  padding-bottom: 30px;
+  color: var(--white_color);
+}
+
+.request_parts_button {
+  width: 250px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 35px;
+  font-size: 14px;
+  background-color: var(--red_color);
+  color: var(--white_color);
+  font-weight: bold;
+  margin-bottom: 45px;
+  border: none;
+  outline: none;
+}
+
+.email_input {
+  width: 250px;
+  height: 50px;
+  padding-left: 80px;
+}
+
+.request_parts_email_form {
+  text-align: center;
+}
+
+.email_input:focus {
+  outline: none;
+}
+
+.testimonials {
+  background-image: url(/img/testimonials_background.webp);
+}
+
+.testimonials_text {
+  font-weight: bold;
+  padding-left: 590px;
+  padding-top: 100px;
+}
+
+.what_people_say {
+  font-weight: bold;
+  padding-left: 430px;
+  font-size: 60px;
+  padding-bottom: 80px;
+}
+
+.first_testiminials_ann {
+  padding-left: 200px;
+}
+
+.second_testiminials_jeff {
+  padding-left: 70px;
+  padding-bottom: 20px;
+}
+
+.third_testimonials_dean {
+  padding-left: 70px;
+}
+
+.footer {
+  background-image: url(/img/engine_background.webp);
+}
+
+.footer_logo {
+  width: 350px;
+  height: 350px;
+  margin-top: 50px;
+  margin-left: 475px;
+}
+
+.text_under_logo_footer {
+  color: var(--white_color);
+  font-size: 15px;
+  text-align: center;
+}
+
+.footer_nav_why_choose_us {
+  text-decoration: none;
+  margin-left: 546px;
+  font-size: 20px;
+  color: var(--white_color);
+}
+
+.footer_nav_parts {
+  text-decoration: none;
+  margin-left: 570px;
+  font-size: 20px;
+  color: var(--white_color);
+}
+
+.footer_nav_testimonials {
+  text-decoration: none;
+  margin-left: 558px;
+  font-size: 20px;
+  color: var(--white_color);
+}
+
+.subscribe_text {
+  margin-left: -5px;
+  font-size: 20px;
+  margin-top: 90px;
+  text-align: center;
+  color: var(--white_color);
+}
+
+.email_input {
+  width: 250px;
+  height: 50px;
+  padding-left: 80px;
+}
+
+.email_input_form {
+  text-align: center;
+}
+
+.email_input:focus {
+  outline: none;
+}
+
+.subscribe_button {
+  width: 250px;
+  height: 50px;
+  margin-left: 523px;
+  margin-top: 35px;
+  font-size: 14px;
+  background-color: var(--red_color);
+  color: var(--white_color);
+  font-weight: bold;
+  margin-bottom: 45px;
+  border: none;
+  outline: none;
+}
+
+.copyright {
+  color: var(--white_color);
+  text-align: center;
+}

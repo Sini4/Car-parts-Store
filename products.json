@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "title": "Headlights kit",
+    "image": "headlights.png",
+    "description": "Brand-new headlights kit for 'Car model'.",
+    "price": 49.99
+  },
+  {
+    "id": "2",
+    "title": "Turbo-Engine",
+    "image": "motor_parts.png",
+    "description": "Great brand-new turbo-engine for 'Car model'.",
+    "price": 2400
+  },
+  {
+    "id": "3",
+    "title": "Custom Wheels",
+    "image": "bbs.png",
+    "description": "Stylish custom sport wheels for 'Car model'.",
+    "price": 499.99
+  },
+  {
+    "id": "4",
+    "title": "Brakes&Rotor",
+    "image": "brakes&rotor.png",
+    "description": "New perfomance brake system for 'Car model'.",
+    "price": 419.99
+  },
+  {
+    "id": "5",
+    "title": "Engine Oil",
+    "image": "shell-helix.png",
+    "description": "Oil from 'Brand name' - great choice for your engine!.",
+    "price": 99.99
+  },
+  {
+    "id": "6",
+    "title": "Oil Filter",
+    "image": "oil-filter.png",
+    "description": "Oil filter - important part of the engine. You should use premium quality filters to save your engine, and 'Brand name' filters - great choise for that.",
+    "price": 15
+  },
+  {
+    "id": "7",
+    "title": "Air Filter",
+    "image": "air-filter.png",
+    "description": "Premium quality air filters by 'Brand name' can improve perfomance and comfort of your car",
+    "price": 9.99
+  },
+  {
+    "id": "8",
+    "title": "Clutch kit",
+    "image": "clutch.png",
+    "description": "Brand-new clutch system from 'Brand name' can improve your driving comfort and gear switching",
+    "price": 79.99
+  }
+]
